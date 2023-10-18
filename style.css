@@ -1,0 +1,187 @@
+/* the main nav and footer in the pages */
+
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Itim';
+}
+
+.navBar{
+    background-color: #D5B4B4;
+    display: flex;
+    padding-top: 30px;
+    /* display: inline; */
+}
+
+.logo{
+    position: relative;
+    bottom: 15px;
+    left: 35px;
+    width:5em;
+    height: 5em;
+}
+
+.nav-menu{
+    margin-left: 30%;
+}
+
+.nav-menu li{
+    display: inline;
+    color: #867070;
+    padding: 35px;
+    margin-top: 40%;
+    text-align: center;
+    font-size: 24px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #867070;
+    transition: color 0.3s;
+}
+
+.nav-menu a:hover {
+    color: #F5EBEB; 
+}
+
+.footer-dsin{
+    background-color: #867070;
+    display: flex;
+    padding-top: 30px;
+}
+
+.footer-paragraph1{
+    margin-left: 15%;
+    margin-bottom: 40px;
+    width: 20vw;
+    color: #F5EBEB;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.footer-paragraph2{
+    margin-left: 9%;
+    margin-bottom: 40px;
+    width: 20vw;
+    color: #F5EBEB;
+    font-size: 18px;
+}
+
+/* index page style */
+
+.wlc-message{
+    text-align: center;
+    color: #867070;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 20px;
+}
+
+.main-image{
+    margin-left: 11%;
+    margin-top: 20px;
+}
+
+.adopt-butt{
+    color: #F5EBEB;
+    background-color: #D5B4B4;
+    border: 1px solid #D5B4B4;
+    border-radius: 40%;
+    width: 147px;
+    height: 42px;
+    margin-left: 45%;
+    margin-top: 50px;
+    margin-bottom: 4%;
+}
+
+/* adopting details */
+
+.content{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.adopting-title{
+    color: #867070;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.adopting-Details{
+    color: #867070;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.email-add{
+    margin-top: 10%;
+    color: #867070;
+    border-color: #867070;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 310px;
+
+}
+
+.phone-num{
+    margin-top: 10%;
+    color: #867070;
+    border-color: #867070;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 310px;
+}
+
+.adoptNow-butt{
+    color: #F5EBEB;
+    background-color: #D5B4B4;
+    border: 1px solid #D5B4B4;
+    border-radius: 40%;
+    width: 100px;
+    height: 42px;
+    margin-left: 1px;
+    margin-top: 77px;
+}
+
+/* thank you page style */
+
+.ty-paragraph{
+    color: #F5EBEB;
+    text-align: center;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 17%;
+}
+
+.cant-wait-butt{
+    width: 201px;
+    height: 60px;
+    align-items: center;
+    border-radius: 24px;
+    background: #867070;
+    border:none;
+    margin-left: 45%;
+    margin-top: 90px;
+    color: #F5EBEB;
+}
+
+/* about us page style */
+
+.about-paragraph{
+    width: 20vw;
+    color: #867070;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
